@@ -1,3 +1,19 @@
+.main-screen__setting {
+  height: 80%;
+  width: 100%;
+  padding: 0 10px;
+  overflow-y: scroll;
+}
+
+.setting_list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -16,6 +32,21 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+.settings__setting-column:first-child {
+  padding-left: 15px;
+}
 .settings__setting-column:last-child {
   opacity: 0.5;
+  padding-right: 15px;
+}
+
+.settings-list__upper {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.setting__line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
 }

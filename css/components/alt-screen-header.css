@@ -3,7 +3,8 @@
   margin-bottom: 15px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
   position: fixed;
   top: 10px;
 }
@@ -19,6 +20,7 @@
 
 .alt-header__column:first-child {
   margin-right: auto;
+  padding-left: 15px;
 }
 
 .alt-header__column:nth-child(2) {
@@ -28,6 +30,7 @@
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
+  padding-right: 15px;
 }
 
 .alt-header__column span:last-child {
